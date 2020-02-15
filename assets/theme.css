@@ -1,0 +1,98 @@
+/*color theme: https://coolors.co/a2a7a5-d9b43d-f1f5f2-1e2d2f-4c8a9b*/
+/*nav starts here*/
+.navbar {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+}
+
+.navitems {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Sans-serif;
+  font-size: 2vw;
+  background-color: #333;
+}
+
+#home {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Sans-serif;
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+.navitems:hover {
+   background-color: #335C67;/*#111*/
+}
+
+/*content starts here*/
+.content_section{
+  padding-top: 20px;
+}
+
+.contents {
+  color: #333;
+  font-family: Sans-serif;
+  text-decoration: none;
+  padding-top: 25px;
+  font-size: 2vw;
+}
+
+.contents:hover{
+  color: #4C8A9B;
+}
+
+.content_section > ul li{
+  padding: 10px 0;
+}
+
+
+
+h2, hr{
+  color: #335C67;
+  font-family: Sans-serif;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+
+ul{
+  list-style-type: square;
+  color: #335C67;
+}
+
+img{
+  float: left;
+  display: inline;
+}
+
+/* video section dropdown discription */
+.tooltip {
+  position: relative;
+  /*display: inline-block;*/
+}
+.tooltip .tooltiptext {
+  display: block;
+  visibility: hidden;
+  width: 400px;
+  box-shadow: 2px 2px #335C67;
+  background-color: white;/*#F1F5F2;*/
+  color: #1E2D2F;
+  text-align: left;
+  padding: 5px 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  font-family: Sans-serif;
+  font-size: 1.5vw;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
